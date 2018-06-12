@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		982A4AFB20CDAFD2005E867A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 982A4AFA20CDAFD2005E867A /* main.c */; };
+		989C317E20D00A7800DB97AC /* hello_world.c in Sources */ = {isa = PBXBuildFile; fileRef = 989C317D20D00A7800DB97AC /* hello_world.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		982A4AF720CDAFD2005E867A /* CPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		982A4AFA20CDAFD2005E867A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		989C317C20D00A7800DB97AC /* hello_world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hello_world.h; sourceTree = "<group>"; };
+		989C317D20D00A7800DB97AC /* hello_world.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hello_world.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,18 @@
 			isa = PBXGroup;
 			children = (
 				982A4AFA20CDAFD2005E867A /* main.c */,
+				989C317F20D00BBC00DB97AC /* hello_world */,
 			);
 			path = CPractice;
+			sourceTree = "<group>";
+		};
+		989C317F20D00BBC00DB97AC /* hello_world */ = {
+			isa = PBXGroup;
+			children = (
+				989C317C20D00A7800DB97AC /* hello_world.h */,
+				989C317D20D00A7800DB97AC /* hello_world.c */,
+			);
+			path = hello_world;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				982A4AFB20CDAFD2005E867A /* main.c in Sources */,
+				989C317E20D00A7800DB97AC /* hello_world.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

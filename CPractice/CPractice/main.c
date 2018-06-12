@@ -7,11 +7,22 @@
 //
 
 #include <stdio.h>
+#include "hello_world.h"
 
-int main(int argc, const char * argv[]) {
-    int num;
-    num = 1;
-    printf("Like %d\n", num);
+
+int main(int argc, const char * argv[])
+{
+    hello_world();
+    printf("implict func call result >>> %d\n", implicit_func(7));
+    platinum();
     
     return 0;
+}
+
+
+int implicit_func(int num);
+
+int implicit_func(int num)
+{
+    return num * 3;
 }

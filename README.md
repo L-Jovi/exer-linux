@@ -6,4 +6,4 @@ Linux system relevant toolset, lang, scripts or modules collection.
 
 - AWK
 
-- CLang Priactice
+- CLang Practice
