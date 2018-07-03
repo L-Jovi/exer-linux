@@ -1,0 +1,272 @@
+2018/07/03 17:18:56 [notice] 42876#0: using the "kqueue" event method
+2018/07/03 17:18:56 [notice] 42876#0: using the "kqueue" event method
+2018/07/03 17:18:56 [notice] 42876#0: nginx/1.12.2
+2018/07/03 17:18:56 [notice] 42876#0: nginx/1.12.2
+2018/07/03 17:18:56 [notice] 42876#0: built by clang 9.0.0 (clang-900.0.38)
+2018/07/03 17:18:56 [notice] 42876#0: built by clang 9.0.0 (clang-900.0.38)
+2018/07/03 17:18:56 [notice] 42876#0: OS: Darwin 17.6.0
+2018/07/03 17:18:56 [notice] 42876#0: OS: Darwin 17.6.0
+2018/07/03 17:18:56 [notice] 42876#0: hw.ncpu: 8
+2018/07/03 17:18:56 [notice] 42876#0: hw.ncpu: 8
+2018/07/03 17:18:56 [notice] 42876#0: net.inet.tcp.sendspace: 131072
+2018/07/03 17:18:56 [notice] 42876#0: net.inet.tcp.sendspace: 131072
+2018/07/03 17:18:56 [notice] 42876#0: kern.ipc.somaxconn: 128
+2018/07/03 17:18:56 [notice] 42876#0: kern.ipc.somaxconn: 128
+2018/07/03 17:18:56 [notice] 42876#0: getrlimit(RLIMIT_NOFILE): 4864:9223372036854775807
+2018/07/03 17:18:56 [notice] 42876#0: getrlimit(RLIMIT_NOFILE): 4864:9223372036854775807
+2018/07/03 17:18:56 [notice] 42877#0: start worker processes
+2018/07/03 17:18:56 [notice] 42877#0: start worker processes
+2018/07/03 17:18:56 [notice] 42877#0: start worker process 42878
+2018/07/03 17:18:56 [notice] 42877#0: start worker process 42878
+2018/07/03 17:21:31 [info] 42878#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/03 17:21:31 [info] 42878#0: *3 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/03 17:22:02 [emerg] 43121#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:22:02 [emerg] 43121#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:22:02 [emerg] 43121#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:22:02 [notice] 43121#0: try again to bind() after 500ms
+2018/07/03 17:22:02 [notice] 43121#0: try again to bind() after 500ms
+2018/07/03 17:22:02 [emerg] 43121#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:22:02 [emerg] 43121#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:22:02 [emerg] 43121#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:22:02 [notice] 43121#0: try again to bind() after 500ms
+2018/07/03 17:22:02 [notice] 43121#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [notice] 43744#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [notice] 43744#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [notice] 43744#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [notice] 43744#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [notice] 43744#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [notice] 43744#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [notice] 43744#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [notice] 43744#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [emerg] 43744#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:10 [notice] 43744#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [notice] 43744#0: try again to bind() after 500ms
+2018/07/03 17:32:10 [emerg] 43744#0: still could not bind()
+2018/07/03 17:32:10 [emerg] 43744#0: still could not bind()
+2018/07/03 17:32:10 [emerg] 43744#0: still could not bind()
+2018/07/03 17:32:22 [emerg] 43778#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:22 [emerg] 43778#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:22 [emerg] 43778#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:22 [notice] 43778#0: try again to bind() after 500ms
+2018/07/03 17:32:22 [notice] 43778#0: try again to bind() after 500ms
+2018/07/03 17:32:22 [emerg] 43778#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:22 [emerg] 43778#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:22 [emerg] 43778#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:22 [notice] 43778#0: try again to bind() after 500ms
+2018/07/03 17:32:22 [notice] 43778#0: try again to bind() after 500ms
+2018/07/03 17:32:22 [emerg] 43778#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:22 [emerg] 43778#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:22 [emerg] 43778#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:32:22 [notice] 43778#0: try again to bind() after 500ms
+2018/07/03 17:32:22 [notice] 43778#0: try again to bind() after 500ms
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [notice] 43800#0: try again to bind() after 500ms
+2018/07/03 17:33:22 [notice] 43800#0: try again to bind() after 500ms
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [notice] 43800#0: try again to bind() after 500ms
+2018/07/03 17:33:22 [notice] 43800#0: try again to bind() after 500ms
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [notice] 43800#0: try again to bind() after 500ms
+2018/07/03 17:33:22 [notice] 43800#0: try again to bind() after 500ms
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [emerg] 43800#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:22 [notice] 43800#0: try again to bind() after 500ms
+2018/07/03 17:33:22 [notice] 43800#0: try again to bind() after 500ms
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [notice] 43809#0: try again to bind() after 500ms
+2018/07/03 17:33:32 [notice] 43809#0: try again to bind() after 500ms
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [notice] 43809#0: try again to bind() after 500ms
+2018/07/03 17:33:32 [notice] 43809#0: try again to bind() after 500ms
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [notice] 43809#0: try again to bind() after 500ms
+2018/07/03 17:33:32 [notice] 43809#0: try again to bind() after 500ms
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [emerg] 43809#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:32 [notice] 43809#0: try again to bind() after 500ms
+2018/07/03 17:33:32 [notice] 43809#0: try again to bind() after 500ms
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [notice] 43825#0: try again to bind() after 500ms
+2018/07/03 17:33:44 [notice] 43825#0: try again to bind() after 500ms
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [notice] 43825#0: try again to bind() after 500ms
+2018/07/03 17:33:44 [notice] 43825#0: try again to bind() after 500ms
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [notice] 43825#0: try again to bind() after 500ms
+2018/07/03 17:33:44 [notice] 43825#0: try again to bind() after 500ms
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [emerg] 43825#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:33:44 [notice] 43825#0: try again to bind() after 500ms
+2018/07/03 17:33:44 [notice] 43825#0: try again to bind() after 500ms
+2018/07/03 17:37:28 [emerg] 43877#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:28 [emerg] 43877#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:28 [emerg] 43877#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:28 [notice] 43877#0: try again to bind() after 500ms
+2018/07/03 17:37:28 [notice] 43877#0: try again to bind() after 500ms
+2018/07/03 17:37:28 [emerg] 43877#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:28 [emerg] 43877#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:28 [emerg] 43877#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:28 [notice] 43877#0: try again to bind() after 500ms
+2018/07/03 17:37:28 [notice] 43877#0: try again to bind() after 500ms
+2018/07/03 17:37:28 [emerg] 43877#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:28 [emerg] 43877#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:28 [emerg] 43877#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:28 [notice] 43877#0: try again to bind() after 500ms
+2018/07/03 17:37:28 [notice] 43877#0: try again to bind() after 500ms
+2018/07/03 17:37:30 [emerg] 43886#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:30 [emerg] 43886#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:30 [emerg] 43886#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:30 [notice] 43886#0: try again to bind() after 500ms
+2018/07/03 17:37:30 [notice] 43886#0: try again to bind() after 500ms
+2018/07/03 17:37:30 [emerg] 43886#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:30 [emerg] 43886#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:30 [emerg] 43886#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:30 [notice] 43886#0: try again to bind() after 500ms
+2018/07/03 17:37:30 [notice] 43886#0: try again to bind() after 500ms
+2018/07/03 17:37:30 [emerg] 43886#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:30 [emerg] 43886#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:30 [emerg] 43886#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:30 [notice] 43886#0: try again to bind() after 500ms
+2018/07/03 17:37:30 [notice] 43886#0: try again to bind() after 500ms
+2018/07/03 17:37:33 [emerg] 43895#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:33 [emerg] 43895#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:33 [emerg] 43895#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:33 [notice] 43895#0: try again to bind() after 500ms
+2018/07/03 17:37:33 [notice] 43895#0: try again to bind() after 500ms
+2018/07/03 17:37:33 [emerg] 43895#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:33 [emerg] 43895#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:33 [emerg] 43895#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:33 [notice] 43895#0: try again to bind() after 500ms
+2018/07/03 17:37:33 [notice] 43895#0: try again to bind() after 500ms
+2018/07/03 17:37:36 [emerg] 43904#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:36 [emerg] 43904#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:36 [emerg] 43904#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:36 [notice] 43904#0: try again to bind() after 500ms
+2018/07/03 17:37:36 [notice] 43904#0: try again to bind() after 500ms
+2018/07/03 17:37:36 [emerg] 43904#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:36 [emerg] 43904#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:36 [emerg] 43904#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:37:36 [notice] 43904#0: try again to bind() after 500ms
+2018/07/03 17:37:36 [notice] 43904#0: try again to bind() after 500ms
+2018/07/03 17:38:37 [emerg] 43935#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:37 [emerg] 43935#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:37 [emerg] 43935#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:37 [notice] 43935#0: try again to bind() after 500ms
+2018/07/03 17:38:37 [notice] 43935#0: try again to bind() after 500ms
+2018/07/03 17:38:37 [emerg] 43935#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:37 [emerg] 43935#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:37 [emerg] 43935#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:37 [notice] 43935#0: try again to bind() after 500ms
+2018/07/03 17:38:37 [notice] 43935#0: try again to bind() after 500ms
+2018/07/03 17:38:37 [emerg] 43935#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:37 [emerg] 43935#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:37 [emerg] 43935#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:37 [notice] 43935#0: try again to bind() after 500ms
+2018/07/03 17:38:37 [notice] 43935#0: try again to bind() after 500ms
+2018/07/03 17:38:47 [emerg] 43950#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:47 [emerg] 43950#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:47 [emerg] 43950#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:47 [notice] 43950#0: try again to bind() after 500ms
+2018/07/03 17:38:47 [notice] 43950#0: try again to bind() after 500ms
+2018/07/03 17:38:47 [emerg] 43950#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:47 [emerg] 43950#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:47 [emerg] 43950#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2018/07/03 17:38:47 [notice] 43950#0: try again to bind() after 500ms
+2018/07/03 17:38:47 [notice] 43950#0: try again to bind() after 500ms
+2018/07/03 17:42:19 [notice] 42877#0: signal 3 (SIGQUIT) received, shutting down
+2018/07/03 17:42:19 [notice] 42877#0: signal 3 (SIGQUIT) received, shutting down
+2018/07/03 17:42:19 [notice] 42878#0: gracefully shutting down
+2018/07/03 17:42:19 [notice] 42878#0: gracefully shutting down
+2018/07/03 17:42:19 [notice] 42877#0: signal 23 (SIGIO) received
+2018/07/03 17:42:19 [notice] 42877#0: signal 23 (SIGIO) received
+2018/07/03 17:42:19 [notice] 42878#0: exiting
+2018/07/03 17:42:19 [notice] 42878#0: exiting
+2018/07/03 17:42:19 [notice] 42878#0: exit
+2018/07/03 17:42:19 [notice] 42877#0: signal 20 (SIGCHLD) received
+2018/07/03 17:42:19 [notice] 42877#0: signal 20 (SIGCHLD) received
+2018/07/03 17:42:19 [notice] 42877#0: worker process 42878 exited with code 0
+2018/07/03 17:42:19 [notice] 42877#0: worker process 42878 exited with code 0
+2018/07/03 17:42:19 [notice] 42877#0: exit
+2018/07/03 17:42:19 [notice] 42877#0: exit
+2018/07/03 17:42:27 [notice] 44002#0: using the "kqueue" event method
+2018/07/03 17:42:27 [notice] 44002#0: using the "kqueue" event method
+2018/07/03 17:42:27 [notice] 44002#0: nginx/1.12.2
+2018/07/03 17:42:27 [notice] 44002#0: nginx/1.12.2
+2018/07/03 17:42:27 [notice] 44002#0: built by clang 9.0.0 (clang-900.0.38)
+2018/07/03 17:42:27 [notice] 44002#0: built by clang 9.0.0 (clang-900.0.38)
+2018/07/03 17:42:27 [notice] 44002#0: OS: Darwin 17.6.0
+2018/07/03 17:42:27 [notice] 44002#0: OS: Darwin 17.6.0
+2018/07/03 17:42:27 [notice] 44002#0: hw.ncpu: 8
+2018/07/03 17:42:27 [notice] 44002#0: hw.ncpu: 8
+2018/07/03 17:42:27 [notice] 44002#0: net.inet.tcp.sendspace: 131072
+2018/07/03 17:42:27 [notice] 44002#0: net.inet.tcp.sendspace: 131072
+2018/07/03 17:42:27 [notice] 44002#0: kern.ipc.somaxconn: 128
+2018/07/03 17:42:27 [notice] 44002#0: kern.ipc.somaxconn: 128
+2018/07/03 17:42:27 [notice] 44002#0: getrlimit(RLIMIT_NOFILE): 4864:9223372036854775807
+2018/07/03 17:42:27 [notice] 44002#0: getrlimit(RLIMIT_NOFILE): 4864:9223372036854775807
+2018/07/03 17:42:27 [notice] 44003#0: start worker processes
+2018/07/03 17:42:27 [notice] 44003#0: start worker processes
+2018/07/03 17:42:27 [notice] 44003#0: start worker process 44004
+2018/07/03 17:42:27 [notice] 44003#0: start worker process 44004
+2018/07/03 17:42:31 [notice] 44003#0: signal 1 (SIGHUP) received, reconfiguring
+2018/07/03 17:42:31 [notice] 44003#0: signal 1 (SIGHUP) received, reconfiguring
+2018/07/03 17:42:31 [notice] 44003#0: reconfiguring
+2018/07/03 17:42:31 [notice] 44003#0: reconfiguring
+2018/07/03 17:42:31 [notice] 44003#0: using the "kqueue" event method
+2018/07/03 17:42:31 [notice] 44003#0: using the "kqueue" event method
+2018/07/03 17:42:31 [notice] 44003#0: start worker processes
+2018/07/03 17:42:31 [notice] 44003#0: start worker processes
+2018/07/03 17:42:31 [notice] 44003#0: start worker process 44015
+2018/07/03 17:42:31 [notice] 44003#0: start worker process 44015
+2018/07/03 17:42:31 [notice] 44004#0: gracefully shutting down
+2018/07/03 17:42:31 [notice] 44004#0: gracefully shutting down
+2018/07/03 17:42:31 [notice] 44003#0: signal 23 (SIGIO) received
+2018/07/03 17:42:31 [notice] 44003#0: signal 23 (SIGIO) received
+2018/07/03 17:42:31 [notice] 44004#0: exiting
+2018/07/03 17:42:31 [notice] 44004#0: exiting
+2018/07/03 17:42:31 [notice] 44003#0: signal 23 (SIGIO) received
+2018/07/03 17:42:31 [notice] 44003#0: signal 23 (SIGIO) received
+2018/07/03 17:42:31 [notice] 44004#0: exit
+2018/07/03 17:42:31 [notice] 44003#0: signal 20 (SIGCHLD) received
+2018/07/03 17:42:31 [notice] 44003#0: signal 20 (SIGCHLD) received
+2018/07/03 17:42:31 [notice] 44003#0: worker process 44004 exited with code 0
+2018/07/03 17:42:31 [notice] 44003#0: worker process 44004 exited with code 0
+2018/07/03 17:42:31 [notice] 44003#0: signal 23 (SIGIO) received
+2018/07/03 17:42:31 [notice] 44003#0: signal 23 (SIGIO) received
+2018/07/03 17:42:31 [notice] 44003#0: signal 23 (SIGIO) received
+2018/07/03 17:42:31 [notice] 44003#0: signal 23 (SIGIO) received
