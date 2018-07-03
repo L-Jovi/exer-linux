@@ -81,3 +81,8 @@ DerivedData
 *.ipa
 *.xcuserstate
 project.xcworkspace
+
+# Nginx
+access.log
+error.log
+nginx.pid
